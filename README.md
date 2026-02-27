@@ -1,8 +1,5 @@
 # Olist-Ecommerce-SQL-DATABASE
 End-to-end E-commerce SQL analytics project featuring database schema design, data cleaning, constraints, indexing, and advanced business intelligence queries. Includes revenue analysis, customer lifetime value, cohort retention, ranking functions, and performance optimization using PostgreSQL.
-BESTIE 🔥 this project is already VERY strong. I’ll give you a **professional, recruiter-level README** that makes it stand out on GitHub.
-
-
 
 # Olist E-Commerce Analytical Database
 
@@ -66,121 +63,117 @@ The database was designed using normalized relational principles.
 
 ## Key Features:
 
-* Primary Keys
-* Foreign Key Relationships
-* Composite Keys
-* Referential Integrity
-* Constraints (NOT NULL, CHECK)
-* Proper Data Types
+- Primary Keys
+-  Foreign Key Relationships
+-  Composite Keys
+-  Referential Integrity
+-  Constraints (NOT NULL, CHECK)
+-  Proper Data Types
 
----
-
-## ⚡ Performance Optimization
+## Performance Optimization
 
 To improve query performance, indexes were created on:
 
-* Customer IDs
-* Order dates
-* Product IDs
-* Seller IDs
-* Payment records
-* Review records
+-  Customer IDs
+-  Order dates
+-  Product IDs
+-  Seller IDs
+-  Payment records
+- Review records
 
 This ensures faster joins and analytics queries on large datasets.
 
----
 
-## 🧹 Data Cleaning & Quality Control
+## Data Cleaning & Quality Control
 
 Data quality was enforced using:
 
-### ✔ NOT NULL Constraints
+NOT NULL Constraints
 
-### ✔ CHECK Constraints:
+ CHECK Constraints:
 
-* Review scores (1–5)
-* Positive prices
-* Positive payment values
-* Valid order statuses
+-  Review scores (1–5)
+-  Positive prices
+-  Positive payment values
+-  Valid order statuses
 
-### ✔ Handling Missing Values
+ Handling Missing Values
 
-* Standardized null product dimensions
-* Ensured data consistency across tables
+-  Standardized null product dimensions
+-  Ensured data consistency across tables
 
----
 
-## 📈 Business Intelligence Metrics
+
+## Business Intelligence Metrics
 
 This project includes real-world performance indicators:
 
-### 🔹 Revenue Analysis
+### Revenue Analysis
 
-* Total Revenue
-* Monthly Revenue Trend
-* Cumulative Revenue (Running Total)
+- Total Revenue
+-  Monthly Revenue Trend
+-  Cumulative Revenue (Running Total)
 
-### 🔹 Sales Performance
+### Sales Performance
 
-* Total Orders
-* Average Order Value
+- Total Orders
+-  Average Order Value
 
-### 🔹 Customer Analytics
+###  Customer Analytics
 
-* Customer Lifetime Value (Top 10)
-* Repeat Purchase Rate
-* Customer Retention Cohort Analysis
-* Ranked Customers using `RANK()`
+-  Customer Lifetime Value (Top 10)
+-  Repeat Purchase Rate
+-  Customer Retention Cohort Analysis
+-  Ranked Customers using `RANK()`
 
----
 
-## 🧠 Advanced SQL Techniques Used
+##  Advanced SQL Techniques Used
 
-* `JOIN` operations
-* Aggregate functions (`SUM`, `COUNT`, `AVG`)
-* `GROUP BY`
-* `DATE_TRUNC`
-* Window functions:
+-  `JOIN` operations
+-  Aggregate functions (`SUM`, `COUNT`, `AVG`)
+- `GROUP BY`
+-  `DATE_TRUNC`
+-  Window functions:
 
-  * `RANK()`
-  * `SUM() OVER()`
-* Common Table Expressions (CTEs)
-* Cohort analysis logic
-* Filtering with `FILTER`
-* Subqueries
+- `RANK()`
+-  `SUM() OVER()`
+- Common Table Expressions (CTEs)
+-  Cohort analysis logic
+-  Filtering with `FILTER`
+-  Subqueries
 
----
 
-## 📊 Analytical Insights Enabled
+
+## Analytical Insights Enabled
 
 This database supports:
 
-* Revenue forecasting
-* Customer segmentation
-* Retention modeling
-* Sales performance tracking
-* Business growth analysis
-* Strategic decision-making
+-  Revenue forecasting
+-  Customer segmentation
+-  Retention modeling
+-  Sales performance tracking
+-  Business growth analysis
+-  Strategic decision-making
 
----
 
-## 🛠️ How to Run This Project
 
-### 1️⃣ Create Database
+## How to Run This Project
+
+### a.  Create Database
 
 ```sql
 CREATE DATABASE olist_ecommerce;
 ```
 
-### 2️⃣ Run Schema Script
+### b. Run Schema Script
 
 Execute the table creation script in PostgreSQL.
 
-### 3️⃣ Import CSV Files
+### c. Import CSV Files
 
 Use `COPY` to load datasets.
 
-### 4️⃣ Run Validation Queries
+### d. Run Validation Queries
 
 Verify row counts and constraints.
 Execute Analytics Queries
@@ -188,7 +181,6 @@ Execute Analytics Queries
 Explore revenue, customers, and trends.
 
 
- About the Author
-
-Katlego Mathebula
+About the Author
+*Katlego Mathebula*
 Mathematical Sciences Graduate
