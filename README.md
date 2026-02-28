@@ -23,7 +23,7 @@ It demonstrates:
 -  Business performance metrics
 -  Window functions & cohort analysis
 
-The goal was to transform raw e-commerce data into a structured, optimized, and analytics-ready relational database.
+The goal was to transform raw e-commerce data from the Brazilian e-commerce platform Olist into a structured, optimized, and analytics-ready relational database.
 
 
 
